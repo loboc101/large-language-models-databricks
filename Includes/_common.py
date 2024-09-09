@@ -65,8 +65,8 @@ course_config = CourseConfig(course_code = "llm",
                              data_source_version = "v03",
                              install_min_time = "15 min",
                              install_max_time = "60 min",
-                             supported_dbrs = ["13.3.x-cpu-ml-scala2.12", "13.3.x-gpu-ml-scala2.12"],
-                             expected_dbrs = "13.3.x-cpu-ml-scala2.12, 13.3.x-gpu-ml-scala2.12")
+                             supported_dbrs = ["13.3.x-cpu-ml-scala2.12", "13.3.x-gpu-ml-scala2.12", "15.4.x-gpu-ml-scala2.12", "15.4.x-cpu-ml-scala2.12"],
+                             expected_dbrs = "13.3.x-cpu-ml-scala2.12, 13.3.x-gpu-ml-scala2.12, 15.4.x-gpu-ml-scala2.12, 15.4.x-cpu-ml-scala2.12")
 
 
 lesson_config = LessonConfig(name = None,
