@@ -36,3 +36,7 @@ df.write.format("csv").save(output_path)
 
 # Clean up SparkSession (Databricks usually handles this, but good practice for local runs)
 # spark.stop()
+
+# COMMAND ----------
+
+dbutils.fs.ls("/mnt/large-language-models")
