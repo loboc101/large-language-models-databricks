@@ -15,6 +15,7 @@ def __install_libraries():
     global pip_command
     
     specified_version = f"v4.0.9"
+    # specified_version = f"v5.0.11"
     key = "dbacademy.library.version"
     version = spark.conf.get(key, specified_version)
 
@@ -63,7 +64,7 @@ from dbacademy.dbhelper import DBAcademyHelper, Paths, CourseConfig, LessonConfi
 course_config = CourseConfig(course_code = "llm",
                              course_name = "large-language-models",
                              data_source_version = "v03",
-                             install_min_time = "15 min",
+                             install_min_time = "10 min",
                              install_max_time = "60 min",
                              supported_dbrs = ["13.3.x-cpu-ml-scala2.12", "13.3.x-gpu-ml-scala2.12", "15.4.x-gpu-ml-scala2.12", "15.4.x-cpu-ml-scala2.12"],
                              expected_dbrs = "13.3.x-cpu-ml-scala2.12, 13.3.x-gpu-ml-scala2.12, 15.4.x-gpu-ml-scala2.12, 15.4.x-cpu-ml-scala2.12")
@@ -73,7 +74,7 @@ lesson_config = LessonConfig(name = None,
                              create_schema = False,
                              create_catalog = False,
                              requires_uc = False,
-                             installing_datasets = True,
+                             install_datasets = True,
                              enable_streaming_support = False,
                              enable_ml_support = True)
 
