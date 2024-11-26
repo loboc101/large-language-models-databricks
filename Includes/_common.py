@@ -74,7 +74,7 @@ lesson_config = LessonConfig(name = None,
                              create_schema = False,
                              create_catalog = False,
                              requires_uc = False,
-                             install_datasets = True,
+                             installing_datasets = True,
                              enable_streaming_support = False,
                              enable_ml_support = True)
 
