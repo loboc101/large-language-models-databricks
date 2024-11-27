@@ -13,7 +13,7 @@ DA.paths.user_db = DA.paths.to_vm_path(DA.paths.user_db)
 
 # COMMAND ----------
 
-# MAGIC %run ./Test-Framework
+# %run ./Test-Framework
 
 # COMMAND ----------
 

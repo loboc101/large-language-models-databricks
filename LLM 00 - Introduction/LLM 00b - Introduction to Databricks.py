@@ -89,8 +89,7 @@ print("Run default language")
 
 # COMMAND ----------
 
-# MAGIC %python
-# MAGIC print("Run python")
+print("Run python")
 
 # COMMAND ----------
 

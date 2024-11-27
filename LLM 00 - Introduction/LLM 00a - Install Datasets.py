@@ -17,6 +17,10 @@
 
 # COMMAND ----------
 
+# MAGIC %restart_python
+
+# COMMAND ----------
+
 # MAGIC %run ../Includes/Classroom-Setup
 
 # COMMAND ----------
